@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Min Resirkulering</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f8fa;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .summary {
+      display: flex;
+      justify-content: space-around;
+      margin: 30px 0;
+    }
+
+    .summary-box {
+      text-align: center;
+      background-color: #e1f5fe;
+      padding: 20px;
+      border-radius: 8px;
+      width: 30%;
+    }
+
+    .summary-box h2 {
+      margin: 0;
+      font-size: 32px;
+      color: #0277bd;
+    }
+
+    .summary-box p {
+      margin: 5px 0 0 0;
+      color: #555;
+    }
+
+    .history {
+      margin-top: 20px;
+    }
+
+    .history h3 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Min Resirkulering</h1>
+
+    <div class="summary">
+      <div class="summary-box">
+        <h2>125</h2>
+        <p>Glass</p>
+      </div>
+      <div class="summary-box">
+        <h2>98</h2>
+        <p>Metall</p>
+      </div>
+      <div class="summary-box">
+        <h2>223</h2>
+        <p>Totale Lodd</p>
+      </div>
+    </div>
+
+    <div class="history">
+      <h3>Siste leveringer</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Dato</th>
+            <th>Glass</th>
+            <th>Metall</th>
+            <th>Lodd</th>
+            <th>Konteiner</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>10. mai 2025</td>
+            <td>12</td>
+            <td>7</td>
+            <td>19</td>
+            <td>Storgata 12</td>
+          </tr>
+          <tr>
+            <td>7. mai 2025</td>
+            <td>4</td>
+            <td>3</td>
+            <td>7</td>
+            <td>Rådhusplassen</td>
+          </tr>
+          <tr>
+            <td>1. mai 2025</td>
+            <td>15</td>
+            <td>10</td>
+            <td>25</td>
+            <td>Torvet Nord</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</body>
+</html>
